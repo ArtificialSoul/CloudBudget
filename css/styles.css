@@ -41,8 +41,27 @@
         .header-menu__menu {
             display: flex;
             flex-direction: row;
+            align-items: center;
         }
 
+            /* .navbar-button:not(:first-of-type) {
+                margin-left: 20px;
+            } */
+
+        .header-menu__login-form {
+            display: flex;
+            align-items: center;
+        }
+
+            .language {
+                display: flex;
+                align-items: center;
+            }
+
+            .header-menu__login-button {
+                display: flex;
+                align-items: center;
+            }
 
 
 .uppercase {
