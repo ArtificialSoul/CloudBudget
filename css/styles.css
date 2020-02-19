@@ -1,9 +1,9 @@
-@font-face {
+/* @font-face {
     font-family: Lato;
     src: url(..\fonts\lato\Lato-Bold.ttf) format('ttf');
     font-weight: bold;
     font-style: normal;
-}
+} */
 
 * {
     box-sizing: border-box;
@@ -24,7 +24,7 @@
   padding-top: 58px;
   padding-bottom: 187px;
   background: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%), 
-                url(..img/background-image.png) center center / cover;
+                url(..\img\back_header.jpg) center center / cover;
 }
     .header-menu {
         display: flex;
@@ -35,35 +35,95 @@
             display: flex;
             flex-direction: row;
             align-items: center;
+            justify-content: space-between;
+            color: #FFFFFF;
         }
+            .logo-name {
+                margin-left: 10px;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 22px;
+            }
 
 
         .header-menu__menu {
             display: flex;
             flex-direction: row;
             align-items: center;
+            justify-content: space-between;
         }
 
-            /* .navbar-button:not(:first-of-type) {
-                margin-left: 20px;
-            } */
+            .navbar-button {
+                padding: 0 0.5em;
+                color: #FFFFFF;
+                font-family: Lato;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 17px;
+            }
 
         .header-menu__login-form {
             display: flex;
             align-items: center;
+            justify-content: space-between;
+            color: #FFFFFF;
         }
 
             .language {
                 display: flex;
                 align-items: center;
+                justify-content: space-between;
             }
+                .img-flag {
+                    margin-right: 6px;
+                }
+
+                .language__butoon {
+                    font-family: Lato;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: #FFFFFF;
+                    background-color: transparent; 
+                    border: 1px solid transparent;
+                    cursor: pointer;
+                    outline: none;
+                    margin-right: 12px;
+                }
+
+                    .img-vector {
+                        margin-left: 6px;
+                    }
 
             .header-menu__login-button {
                 display: flex;
                 align-items: center;
+                
             }
+                
+                .login-button {
+                    background-color: transparent;
+                    border-radius: 6px;
+                    border: 1px solid #FFFFFF;
+                    outline: none;
+                    padding: 9px 25px;
+                    color: #FFFFFF;
+                    font-family: Lato;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 17px;
+                    cursor: pointer;
+                }
 
 
 .uppercase {
     text-transform: uppercase;
+}
+
+.lato {
+    font-family: lato;
 }
