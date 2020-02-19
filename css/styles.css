@@ -175,3 +175,13 @@
             outline: none;
             cursor: pointer;
         }
+
+
+        /* I N T R O */
+
+.intro {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
