@@ -30,6 +30,7 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        margin-bottom: 170px;
     }
         .header-menu__logo {
             display: flex;
@@ -127,3 +128,50 @@
 .lato {
     font-family: lato;
 }
+
+    .header-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+        .header-content__heading {
+            letter-spacing: 0.05em;
+            font-family: Lato;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 72px;
+            line-height: 86px;
+            color: #FFFFFF;
+            margin-bottom: 35px;
+        }
+
+        .header-content__text {
+            max-width: 500px;
+            text-align: center;
+            color: #FFFFFF;
+            font-family: Lato;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 150%;
+            margin-bottom: 60px;
+        }
+
+        .header-content__submit {
+            background-color: #FFFFFF;
+            border: 1px solid #FFFFFF;
+            border-radius: 6px;
+            color: #ED4C5C;
+            font-family: Lato;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 17px;
+            padding: 17px 53px 16px 52px;
+            outline: none;
+            cursor: pointer;
+        }
