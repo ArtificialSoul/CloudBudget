@@ -56,7 +56,7 @@
         }
 
             .navbar-button {
-                padding: 0 0.5em;
+                padding: 0 0.6em;
                 color: #FFFFFF;
                 font-family: Lato;
                 font-style: normal;
@@ -244,5 +244,4 @@
                 outline: none;
                 border: 1px solid #ED4C5C;
                 cursor: pointer;
-                padding: auto auto;
             }
