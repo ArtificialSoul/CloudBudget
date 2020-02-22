@@ -181,7 +181,68 @@
 
 .intro {
     background-color: #FFFFFF;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    margin-top: 94px;
+    margin-bottom: 95px;
+   
 }
+    .intro .wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+        .intro__information-block {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+            max-width: 500px;
+        }
+
+            .intro__heading {
+                font-family: Lato;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 36px;
+                line-height: 43px;
+                color: #000000;
+                padding-bottom: 24px;
+            }
+            .intro__text {
+                font-family: Lato;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 140%;
+                text-align: justify;
+                color: #000000;
+                padding-bottom: 24px
+            }
+            .intro__learn-more {
+                font-family: Lato;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 140%;
+                text-align: justify;
+                color: #ED4C5C;
+            }
+
+        .intro__video-block {
+            display: flex;
+            justify-content: center;
+            flex-basis: 50%;
+            align-items: center;
+        }
+            .intro__button-play {
+                width: 66px;
+                height: 66px;
+                border-radius: 50%;
+                background-color: #ED4C5C;
+                position: relative;
+                right: -33px;
+                outline: none;
+                border: 1px solid #ED4C5C;
+                cursor: pointer;
+                padding: auto auto;
+            }
