@@ -339,5 +339,92 @@
         /* T E C H N O L O G Y */
 
 .technology {
+    background-color: #FFFFFF;
+    padding-top: 63px;
+    padding-bottom: 104px;
+}
+
+    .technology .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+        .technology__title {
+            font-family: Lato;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 43px;
+            text-align: center;
+            color: #000000;
+            margin-bottom: 52px;
+        }
+        .technology__container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+             .technology__item {
+                max-width: 255px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 0 30px 14px 34px;
+                }
+                .technology__number-container {
+                    display: flex;
+                    position: relative;
+                    flex-direction: column;
+                    align-items: center;
+                    margin-bottom: 40px;
+                }
+                    .technology__number-item {
+                        font-family: Lato;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 100px;
+                        line-height: 120px;
+                        text-align: center;
+                        color: rgba(16, 16, 16, 0.08);
+                    }
+                    .technology__icon-item {
+                        position: absolute;
+                        max-width: 47px;
+                        max-height: 57px;
+                        top: 58%;
+                    }
+                    .technology__icon-item:first-of-type {
+                        top: 50%;
+                        max-width: 70px;
+                        max-height: 70px;
+                    }
+                .technology__title-item {
+                    font-family: Lato;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 18px;
+                    line-height: 22px;
+                    text-align: center;
+                    color: #101010;
+                    margin-bottom: 10px;
+                }
+                .technology__description-item {
+                    font-family: Lato;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 12px;
+                    line-height: 14px;
+                    text-align: center;
+                    color: #000000;
+                }
+
+
+        /* S T A Y - F O C U S E D */
+
+
+.stay-focused {
+    background-color: #ED4C5C;
+    padding-top: 94px;
+}
+    .stay-focused .wrapper {
     
 }
