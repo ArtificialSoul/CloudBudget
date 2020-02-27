@@ -455,18 +455,19 @@
         .stay-focused__icons {
             display: flex;
             flex-direction: row;
+            align-items: center;
         }
         .stay-focused__icon:first-of-type {
             max-width: 32px;
             max-height: 32px;
-            padding-right: 25px;
+            margin-right: 25px;
         }
         .stay-focused__icon:nth-last-of-type(2) {
-            max-width: 28px;
-            max-height: 28px;
-            padding-right: 25px;
+            max-width: 32px;
+            max-height: 32px;
+            margin-right: 25px;
         }
         .stay-focused__icon:last-of-type {
-            max-width: 24px;
-            max-height: 24px;
+            max-width: 32px;
+            max-height: 32px;
         }
